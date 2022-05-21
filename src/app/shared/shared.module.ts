@@ -1,19 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { TabComponent } from './components/tab/tab.component';
+import { TxnCardComponent } from './components/txn-card/txn-card.component';
 
 
 @NgModule({
   declarations: [
-    FooterComponent
+    TabComponent,
+    TxnCardComponent
   ],
   imports: [
     CommonModule,
     RouterModule
   ],
   exports: [
-    FooterComponent
+    TabComponent,
+    TxnCardComponent
   ]
 })
 export class SharedModule { }

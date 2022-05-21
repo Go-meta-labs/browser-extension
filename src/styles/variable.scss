@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Oxanium:wght@500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 :root {
-  --font-1: "Oxanium", cursive;
-  --font-2: "Kumbh Sans", sans-serif;
+  --font-1: 'Montserrat', sans-serif;
 
   --color-drk-1: #1a1a1a;
   --color-drk-2: #4d4d4d;
@@ -12,8 +11,6 @@
 
   --color-lgt-1: #fcfcfc;
   --color-lgt-2: #f0f0f0;
-
-  --bg-color-1: linear-gradient(180deg, #ffffff 0%, #fcfcfc 100%);
 
   --pri-color-1: #256eff;
   --pri-color-2: #669aff;

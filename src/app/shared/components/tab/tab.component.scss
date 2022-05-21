@@ -1,0 +1,22 @@
+#tabs {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 100%;
+}
+
+#tabs .tab {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#tab .tab-txt{
+    padding-top: 10px;
+}
